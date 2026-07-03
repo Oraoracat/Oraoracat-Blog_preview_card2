@@ -1,6 +1,16 @@
 *
 {
     width: 1440px;
+
+
+
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+
+  background-color: var(--background-color);
+
 }
 
 :root
@@ -11,15 +21,47 @@
     --dark-gray: hsl(0, 0%, 7%);
 }
 
-.quicksand
+.illustration
 {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300px;
-  font-style: normal;
+    width:300px;
+    height:auto;
+    border-radius: 10px;
+}
+
+
+.blog1
+{
+    border: 2px solid var(--dark-gray);
+    border-radius: 10px;
+    padding: 40px;
+    width: 300px;
+    background-color: var(--white);
+
+    margin: 200px auto;
+}
+
+.category
+{
+    background-color: var(--background-color);
+    border-radius: 5px;
+    padding: 5px 10px;
+
 }
 
 p
 {
     font-size: 16px;
+}
+
+.common-text
+{
+    color: var(--light-gray);
+
+}
+
+footer
+{
+    display: flex;
+    justify-content:center;
+    align-items:center;
 }
