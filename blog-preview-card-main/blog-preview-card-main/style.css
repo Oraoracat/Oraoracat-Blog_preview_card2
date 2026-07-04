@@ -92,3 +92,7 @@ h2
     background-color: transparent;
     font-weight: bolder;
 }
+
+@media (max-width: 375px) {
+    
+}
