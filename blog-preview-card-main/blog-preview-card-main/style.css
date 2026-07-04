@@ -23,19 +23,19 @@
 
 .illustration
 {
-    width:300px;
-    height:auto;
+    width:336px;
+    height:201px;
     border-radius: 10px;
 }
 
 
 .blog1
 {
-    border: 2px solid var(--dark-gray);
-    border-radius: 10px;
+    border: 1px solid var(--dark-gray);
+    border-radius: 20px;
     box-shadow: 6px 6px;
-    padding: 40px;
-    width: 300px;
+    padding: 30px;
+    width: 336px;
     background-color: var(--white);
 
     margin: 200px auto;
@@ -43,7 +43,15 @@
 
 p
 {
-    font-size: 16px;    
+        display: inline-block;
+    font-size: 16px;   
+    background-color: transparent;
+    padding-top: 10px;
+}
+
+h2
+{
+    background-color: transparent;
 }
 
 .category
@@ -53,11 +61,34 @@ p
     font-weight: bold;
     border-radius: 5px;
     padding: 5px 10px;
+}
 
+.description
+{
+    display: inline;
+    background-color: transparent;
+    color: var(--light-gray);
 }
 
 .common-text
 {
     color: var(--light-gray);
 
+}
+
+.image-avatar
+{
+    background-color: transparent;
+
+    display: inline;
+    vertical-align: middle;
+
+    width: 40px;
+}
+
+.author
+{
+    padding-left: 10px;
+    background-color: transparent;
+    font-weight: bolder;
 }
