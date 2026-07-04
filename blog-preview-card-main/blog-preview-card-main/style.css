@@ -33,6 +33,7 @@
 {
     border: 2px solid var(--dark-gray);
     border-radius: 10px;
+    box-shadow: 6px 6px;
     padding: 40px;
     width: 300px;
     background-color: var(--white);
@@ -40,28 +41,23 @@
     margin: 200px auto;
 }
 
+p
+{
+    font-size: 16px;    
+}
+
 .category
 {
-    background-color: var(--background-color);
+        display: inline;
+        background-color: var(--background-color);
+    font-weight: bold;
     border-radius: 5px;
     padding: 5px 10px;
 
-}
-
-p
-{
-    font-size: 16px;
 }
 
 .common-text
 {
     color: var(--light-gray);
 
-}
-
-footer
-{
-    display: flex;
-    justify-content:center;
-    align-items:center;
 }
